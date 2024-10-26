@@ -4,79 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            padding: 20px;
-            background-color: #ffffff;
+      
+body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.8;
+        color: #333;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
 
-        }
-        header {
-            background-color: #54a4da;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            border-radius: 5px;
-        }
-        h1, h2, p {
-            color: black;
-        }
-        section {
-            background-color: #629584;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        ol {
-            color: #000;
-            padding-left: 20px;
-        } 
-        a {
-            border: 2px solid #000; 
-            padding: 5px; 
-            text-decoration: none; 
-            color: black; 
-            border-radius: 5px; 
-             
-        }
-        a:hover {
-        background-color: #f0f0f0; 
-        }
-        
+    header, footer {
+        width: 100vw; 
+        left: 0;
+        right: 0;
+        margin: 0;
+        background-image: url(Assets/header1.jpeg);
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
 
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .introduction, .call-to-action {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 6px hsla(0, 0%, 100%, 0.149);
+    }
+
+    h2 {
+        color: #2c3e50;
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    li {
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+    }
+
+    a {
+        color: #2980b9;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .back-button {
+        display: inline-block;
+        margin: 20px 0;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+        background-color: #2980b9;
+        cursor: pointer;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    nav {
+    border: 3px solid #000000;
+}
+
+
+nav {
+    background-color: #000000;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2S0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
     </style>
-
-<a href="index.html">back</a>
 </head>
 <body>
+
     <header>
         <h1>Tentang Kami</h1>
     </header>
-    
+    <nav>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="index.html">content</a></li>
+        </ul>
+    </nav>
+
     <main>
         <section>
             <h2>Tim Kami</h2>
             <p>Tim kami terdiri dari 3 orang mahasiswa yang memiliki kemampuan dalam pemrograman web.</p>
             <ol>
-                <li>Nama : Baharuddin Ziyat Agustian</li>
-                <li>Nama : Ika Cahya Agustina</li>
-                <li>Nama : Moch Sapto Ady Subakti</li>
+                <li>Nama: Baharuddin Ziyat Agustian</li>
+                <li>Nama: Ika Cahya Agustina</li>
+                <li>Nama: Moch Sapto Ady Subakti</li>
             </ol>
         </section>
+
         <section>
-            <h2>Tujuan kami</h2>
+            <h2>Tujuan Kami</h2>
             <ul>
                 <li>Memberikan Informasi Mendalam: Website ini bertujuan untuk menyajikan informasi yang komprehensif tentang para tokoh penemu bahasa pemrograman, termasuk latar belakang, kontribusi, dan dampak karya mereka terhadap perkembangan teknologi.</li>
                 <li>Memahami Perkembangan Teknologi: Website ini juga bertujuan untuk menunjukkan evolusi bahasa pemrograman dari masa ke masa, sehingga pengunjung dapat memahami bagaimana perkembangan teknologi dipengaruhi oleh inovasi-inovasi ini.</li>
                 <li>Sumber Edukasi: Menyediakan informasi yang bermanfaat dan dapat dijadikan referensi bagi pelajar, mahasiswa, atau siapa pun yang tertarik untuk mengenal lebih dalam mengenai sejarah dan tokoh-tokoh penting dalam dunia pemrograman.</li>
             </ul>
         </section>
-        
     </main>
+
+    <a href="index.html" class="back-button">Back</a>
+
+    <footer>
+        <p>&copy; 2024 kelompok 3</p>
+    </footer>
 
 </body>
 </html>
