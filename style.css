@@ -1,11 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 body{
     background-color: #ffffff;
 }
+
+header {
+    background-image: url(Assets/header1.jpeg);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(Assets/header1.jpeg);
+    color: white;
+}
+
+
+nav {
+    border: 3px solid #ffffff;
+}
+
+
+nav {
+    background-color: #000000;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2S0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .biography-container {
     
     display: grid;
@@ -24,7 +66,7 @@ body{
     }
 
 .biography-card {
-    background-color: #629584;
+    background-color: #084f7e;
     margin: 20px;
     width: 200px;
     height: 300px;
@@ -60,7 +102,7 @@ body{
 }
 
 a {
-    border: 2px solid #000; 
+    border: 2px solid #ffffff; 
     padding: 5px; 
     text-decoration: none; 
     color: black; 
@@ -68,7 +110,7 @@ a {
   }
   
   a:hover {
-    background-color: #387478; 
+    background-color: #084f7e; 
   }
 
   .button {
@@ -117,3 +159,4 @@ a {
     text-decoration: none;
     font-size: 1em;
 }
+
