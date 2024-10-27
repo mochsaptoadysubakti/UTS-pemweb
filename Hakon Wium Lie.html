@@ -8,16 +8,31 @@
         body {
             background-color: #ffffff;
             font-family: Arial, sans-serif;
-            padding: 20px;
+            margin:0;
         }
 
-        header, footer {
+        header {
+            left: 0;
+            right: 0;
+            margin: 0;
             background-image: url(Assets/header1.jpeg);
             color: white;
+            padding: 15px;
             text-align: center;
-            padding: 10px;
+            font-size: 1.5em;
         }
-
+        
+        .footer p {
+            left: 0;
+            right: 0;
+            margin: 0;
+            text-align: center;
+            background-image: url(Assets/header1.jpeg);
+            color: white;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        
         h1 {
             text-align: center;
         }
@@ -38,38 +53,24 @@
             line-height: 1.6;
         }
 
-        a {
-            border: 2px solid #000; 
-            padding: 5px; 
-            text-decoration: none; 
-            color: black; 
-            border-radius: 5px; 
-            display: inline-block;
-            margin-top: 20px;
+        nav {
+            background-color: #000000;
         }
 
-        a:hover {
-            background-color: #f0f0f0; 
+        nav ul {
+            list-style-type: none;
+            padding: 2S0;
         }
-nav {
-    background-color: #000000;
-    
-}
 
-nav ul {
-    list-style-type: none;
-    padding: 2S0;
-}
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
 
-nav ul li {
-    display: inline;
-    margin-right: 30px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
     </style>
 
 </head>
@@ -114,13 +115,8 @@ nav ul li a {
         <p>Håkon Wium Lie adalah tokoh penting dalam dunia pengembangan web, terutama melalui penemuannya, CSS. Dengan CSS, desainer web dapat menciptakan situs yang estetis, responsif, dan mudah dikelola, sambil memisahkan konten dari tampilan. Kontribusi Lie membentuk web hingga berfungsi dan terlihat seperti sekarang, dan karyanya terus relevan hingga hari ini.</p>
     </div>
 
-    
-        <a href="index.html">Back</a>
-    
-
-    
-    <footer>
+    <div class="footer">
         <p>&copy; 2024 kelompok 3</p>
-    </footer>
+    </div>
 </body>
 </html>
