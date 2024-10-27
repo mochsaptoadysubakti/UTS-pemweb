@@ -8,7 +8,7 @@
         body {
             background-color: #ffffff;
             font-family: Arial, sans-serif;
-            padding: 20px;
+            margin:0;
         }
 
         h1 {
@@ -20,13 +20,28 @@
             margin: 0 auto;
         }
         
-        header, footer {
+        .header {
+            left: 0;
+            right: 0;
+            margin: 0;
             background-image: url(Assets/header1.jpeg);
             color: white;
+            padding: 15px;
             text-align: center;
-            padding: 10px;
+            font-size: 1.5em;
         }
-
+        
+        .footer p {
+            left: 0;
+            right: 0;
+            margin: 0;
+            text-align: center;
+            background-image: url(Assets/header1.jpeg);
+            color: white;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        
         img {
             width: 100%;
             height: auto;
@@ -115,7 +130,7 @@
         <p>JavaScript telah berkembang jauh dari bahasa sederhana yang diciptakan dalam 10 hari menjadi ekosistem yang luas dengan berbagai framework dan perpustakaan seperti React, Angular, dan Vue.js. Kontribusi Brendan Eich dalam menciptakan JavaScript telah memberikan dampak besar terhadap perkembangan internet dan aplikasi web modern.</p>
     </div>
     
-    <footer>
+    <div class="footer">
         <p>&copy; 2024 kelompok 3</p>
     </footer>
     
