@@ -15,7 +15,7 @@ Ini adalah website sederhana yang menampilkan biografi tokoh-tokoh terkenal yang
 - `<header>`: Berisi judul dan navigasi utama.
 - `<nav>`: Navigasi untuk berpindah antara halaman-halaman situs.
 - `<section>`: Bagian utama yang menampilkan konten halaman.
-- `<footer>`: Bagian bawah halaman yang memuat informasi tambahan.
+- `<footer>`: Bagian bawah halaman yang memuat informasi pembuat web.
 
 
 # Bahasa pemograman #
