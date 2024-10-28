@@ -7,7 +7,6 @@ Ini adalah website sederhana yang menampilkan biografi tokoh-tokoh terkenal yang
 -	Desain sederhana dan bersih.
 -	Menampilkan kartu biografi dengan gambar, nama, dan deskripsi singkat dari setiap penemu bahasa pemrograman.
 -	Tautan ke halaman individual untuk detail biografi.
--	Desain responsif sepenuhnya untuk tampilan mobile, tablet, dan desktop.
 -	Mudah untuk dikembangkan dan dimodifikasi
 
 ## Struktur HTML
