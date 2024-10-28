@@ -4,17 +4,24 @@ Ini adalah website sederhana yang menampilkan biografi tokoh-tokoh terkenal yang
 
 # filtur #
 
-•	Desain sederhana dan bersih.
-•	Menampilkan kartu biografi dengan gambar, nama, dan deskripsi singkat dari setiap penemu bahasa pemrograman.
-•	Tautan ke halaman individual untuk detail biografi.
-•	Desain responsif sepenuhnya untuk tampilan mobile, tablet, dan desktop.
-•	Mudah untuk dikembangkan dan dimodifikasi
+-	Desain sederhana dan bersih.
+-	Menampilkan kartu biografi dengan gambar, nama, dan deskripsi singkat dari setiap penemu bahasa pemrograman.
+-	Tautan ke halaman individual untuk detail biografi.
+-	Desain responsif sepenuhnya untuk tampilan mobile, tablet, dan desktop.
+-	Mudah untuk dikembangkan dan dimodifikasi
+
+## Struktur HTML
+
+- `<header>`: Berisi judul dan navigasi utama.
+- `<nav>`: Navigasi untuk berpindah antara halaman-halaman situs.
+- `<section>`: Bagian utama yang menampilkan konten halaman.
+- `<footer>`: Bagian bawah halaman yang memuat informasi tambahan.
 
 
 # Bahasa pemograman #
 
-•	HTML - Bahasa markup untuk struktur halaman web.
-•	CSS - Stylesheet untuk tata letak dan desain.
+-	HTML - Bahasa markup untuk struktur halaman web.
+-	CSS - Stylesheet untuk tata letak dan desain.
 
 # link website #
 https://mochsaptoadysubakti.github.io/UTS-pemweb/index.html
